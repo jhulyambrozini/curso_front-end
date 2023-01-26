@@ -71,6 +71,11 @@ section h2, .articles article {
 .articles article p, .articles article a {
     font-family: Arial, Helvetica, sans-serif;
 }
+.articles article p {
+    text-align: justify;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+}
 
 section h2 {
     font-size: 32px;
@@ -88,4 +93,23 @@ section h2 {
 }
 #economy .articles article a {
     background-color: #ff9f1a;
+}
+
+#tecnology {
+    background-color: #a89ff8;
+}
+#tecnology .articles article a {
+    background-color: #311aff;
+}
+
+#entreteriment {
+    background-color: #f89fd2;
+}
+#entreteriment .articles article a {
+    background-color: #ff1aa3;
+}
+
+footer  {
+    padding: 25px;
+    text-align: center;
 }
