@@ -48,6 +48,7 @@ form input {
   border-radius: 5px;
   border: none;
   font-size: 2rem;
+  margin-bottom: 16px;
 }
 
 form input:focus {
@@ -72,12 +73,20 @@ form button:hover {
 
 .sucess {
     background-color: rgb(116, 255, 116);
-    padding: 16px;
+    padding: 10px;
     text-align: center;
+    margin-top: 16px;
 }
 
 .bad {
     background-color: rgb(255, 67, 67);
+    padding: 10px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.equal {
+    background-color: rgb(138, 138, 138);
     padding: 10px;
     text-align: center;
     margin-top: 16px;
