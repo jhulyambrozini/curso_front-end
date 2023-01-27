@@ -35,7 +35,7 @@ form.addEventListener('submit', (e) => {
 
 // função da mensagem de sucesso
 function msgSucess() {
-    const msgSucess = `<p>O número ${campoB.value} é maior que o número ${campoA.value}.</p>`
+    const msgSucess = `<p>Formulário válido.</p>`
     result.classList.remove('equal')
     result.classList.remove('bad')
     result.classList.add('sucess')
@@ -46,7 +46,7 @@ function msgSucess() {
 
 // função da mensagem de erro
 function msgBad() {
-    const msgBad = `<p>O número ${campoB.value} não é maior que o número ${campoA.value}.</p>`
+    const msgBad = `<p>Formulário inválido.</p>`
     result.classList.remove('equal')
     result.classList.remove('sucess')
     result.classList.add('bad')
@@ -57,7 +57,7 @@ function msgBad() {
 
 // função da mensagem de igual
 function msgEqual() {
-    const msgEqual = `<p>O número ${campoB.value} é igual ao número ${campoA.value}.</p>`
+    const msgEqual = `<p>Valores iguais, tente de novo.</p>`
     result.classList.remove('sucess')
     result.classList.remove('bad')
     result.classList.add('equal')
