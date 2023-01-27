@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section h1 {
+    font-size: 3rem;
+    margin: 16px 0;
+    padding-bottom: 16px;
+    text-align: center;
+    color: rgb(39, 140, 208);
+} 
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+form input:focus {
+  border: 2px solid rgb(39, 140, 208);
+}
+
+form button {
+  border: none;
+  background: rgb(39, 140, 208);
+  color: #fff;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+form button:hover {
+  background: rgb(78, 154, 205);
+}
+
+.sucess {
+    background-color: rgb(116, 255, 116);
+    padding: 10px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.bad {
+    background-color: rgb(255, 67, 67);
+    padding: 10px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.equal {
+    background-color: rgb(138, 138, 138);
+    padding: 10px;
+    text-align: center;
+    margin-top: 16px;
+}
