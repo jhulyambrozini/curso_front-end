@@ -22,7 +22,7 @@ let alunos = [
 ]
 
 
-function aprovados() {
+const aprovados = () => {
     let apv = alunos.filter(nota => nota.nota >= 6)
     console.log(apv)
 }
