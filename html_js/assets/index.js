@@ -18,15 +18,15 @@ form.addEventListener('submit', (e) => {
     result.innerHTML = ''; // zerando o html
 
 // aplicando logica
-    if (campoB.value > campoA.value) {
+    if (campoB.valueAsNumber > campoA.valueAsNumber) {
         msgSucess()
         return
     }
-    if (campoB.value < campoA.value) {
+    if (campoB.valueAsNumber < campoA.valueAsNumber) {
         msgBad()
         return
     }
-    if (campoB.value = campoA.value) {
+    if (campoB.valueAsNumber = campoA.valueAsNumber) {
         msgEqual()
         return
     }
