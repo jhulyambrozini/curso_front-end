@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #f7f7f7;
+    margin-top: 100px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+
+}
+
+form input {
+    margin-bottom: 16px;
+}
