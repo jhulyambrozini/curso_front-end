@@ -6,16 +6,18 @@ $(document).ready(function () {
 
         let inputValue = $('.form-input').val()
         let li = `<li class="list-li"> ${inputValue}</li>`
-       
-        $('ul').append(li)
 
-    })
+        $(li).appendTo('ul')
 
-    $('ul').on('click', () => {
+        $(document).on('click', 'li', function() {
 
-      $('li').css({textDecoration: 'line-through'})
-      // $('li').toggleClass('strike')
-        
+            $(this).css('textDecoration', 'line-through')
+            // $('li').toggleClass('strike')
+              
+          })
+
+         
+
     })
 
 })
