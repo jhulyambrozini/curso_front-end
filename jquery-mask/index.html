@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery mask</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <h1>
+        Jquery masks
+    </h1>
+
+    <form>
+        <label for="name">Nome completo*</label>
+        <input type="text" placeholder="Seu nome" id="name" required>
+
+        <label for="email">Email*</label>
+        <input type="email" placeholder="exemple@email.com" id="email" required>
+
+        <label for="tel">Telefone*</label>
+        <input type="tel" placeholder="(00) 00000-0000" id="tel" required>
+
+        <label for="cep">CEP*</label>
+        <input type="text" placeholder="CEP" id="cep" required>
+
+        <label for="cpf">CPF*</label>
+        <input type="text" placeholder="CPF" id="cpf" required>
+
+        <label for="adress">Endereço*</label>
+        <input type="text" placeholder="Bairro, rua, n°" id="adress" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+   <script src="./js/jquery.mask.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#cep').mask('00000-000');
+            
+            $('#tel').mask('(00) 00000-0000');
+
+            $('#cpf').mask('000.000.000-00');
+        })
+
+    </script>
+</body>
+</html>
