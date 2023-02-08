@@ -32,7 +32,7 @@ function imageMin(callback) {
     gulp.src('./src/images/*')
  
              .pipe(imagemin())
-             .pipe(gulp.dest('./dist/images'))
+             .pipe(gulp.dest('./build/images'))
  
          return callback()
  
