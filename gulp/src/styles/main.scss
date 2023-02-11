@@ -1,0 +1,21 @@
+@import './variaveis.scss';
+
+body {
+    background-color: $color-primary;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    font-family: $font-default;
+}
+
+
+section {
+    padding: 56px 0;
+}
